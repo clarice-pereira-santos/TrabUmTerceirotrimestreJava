@@ -1,7 +1,4 @@
 
-package com.mycompany.exercicios;
-import java.time.LocalDate;
-
 public class Veiculos {
     public String marca;
     public String modelo;
@@ -29,7 +26,7 @@ public class Veiculos {
     }
    
     public String exibirDados(){
-       
+       return "\nMarca: " + this.marca + "\nModelo: " + this.modelo + "\nAno Fabricação: " + this.anoFabricacao + "\nQuilometragem: " + this.quilometragem;
     }
    
 }
